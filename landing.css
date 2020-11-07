@@ -1,4 +1,117 @@
-nav ul li{
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* NavBar */
+
+.nav_container{
+     display: flex;
+     justify-content: space-between;
+}
+
+nav li{
+     display: flex;
+}
+
+nav ul{
      list-style: none;
+     display: flex;
+}
+
+nav a{
+     margin: 1rem;
+     color: black;
+}
+
+nav a{
      text-decoration: none;
 }
+
+/* Section */
+
+section{
+     width: 100%;
+     height: 500px;
+     background-image: url('/lines_of_code.jpg');
+     background-color: rgb(36, 34, 34);
+     background-repeat: no-repeat;
+     background-blend-mode: multiply;
+}
+
+section h1{
+     color: white;
+     text-align: center;
+     padding-top: 10rem;
+}
+
+section .p_1{
+     text-align: center;
+     color: white;
+     font-size: larger;
+     font-weight: 700;
+}
+
+span{
+     display: flex;
+     justify-content: center;
+}
+
+/* Article */
+
+article h1{
+     text-align: center;
+     margin-top: 2rem;
+}
+
+.row{
+     margin-top: 1rem;
+     display: flex;
+     justify-content: center;
+}
+
+/* Cards */
+
+.fluids{
+     background-color: rgb(55, 53, 53);
+}
+
+.cards{
+     padding: 2rem;
+     margin-top: 2rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+/* First major div */
+.lan{
+     margin-top: 3rem;
+     text-align: center;
+}
+
+.lan p{
+     margin-top: 2rem;
+     padding-bottom: 3rem;
+}
+
+.lan_2{
+     margin-top: 3rem;
+     text-align: center;
+}
+
+.cl_blue{
+     color: white;
+     padding-top: 4.5rem;
+     height: 20rem;
+     background-color: rgb(12, 119, 233);
+}
+
+.cl_black{
+     color: white;
+     padding-top: 4.5rem;
+     background-color: rgb(55, 53, 53);
+}
+
